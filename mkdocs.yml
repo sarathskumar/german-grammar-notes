@@ -1,0 +1,73 @@
+site_name: German A2→B1 Grammar Notes & TELC Prep
+site_description: A structured, example-driven German grammar reference (A2–B1) with TELC B1 exam prep.
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.emoji
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - A2 Grammar:
+      - Overview: a2-grammar/README.md
+      - Konnektoren: a2-grammar/konnektoren.md
+      - Verben: a2-grammar/verben.md
+      - Deklination: a2-grammar/deklination.md
+      - Präpositionen: a2-grammar/praepositionen.md
+      - Other topics: a2-grammar/other.md
+  - B1 Grammar:
+      - Overview: b1-grammar/README.md
+      - wenn vs. als: b1-grammar/wenn-als.md
+      - Konnektoren der Folge: b1-grammar/konnektoren-folge.md
+      - Adjektive als Nomen: b1-grammar/adjektive-als-nomen.md
+      - Komparativ & Superlativ: b1-grammar/komparativ-superlativ.md
+      - um…zu vs. damit: b1-grammar/um-zu-damit.md
+      - Identifying the case: b1-grammar/kasus-bestimmen.md
+      - Adjektivdeklination mit Nullartikel: b1-grammar/nullartikel.md
+      - zu + Infinitiv: b1-grammar/zu-infinitiv.md
+      - wegen / trotz + Genitiv: b1-grammar/wegen-trotz-genitiv.md
+      - Doppelkonnektoren: b1-grammar/doppelkonnektoren.md
+  - Redemittel:
+      - Diskussion: redemittel/diskussion.md
+  - Vocabulary:
+      - Arbeit & Karriere: vocabulary/arbeit-karriere.md
+      - "B1.2 Modul 1": vocabulary/b1-2-modul-1.md
+  - Exam:
+      - TELC B1 structure: exam/telc-b1-overview.md
+  - Study:
+      - Roadmap: study/roadmap.md
+      - Weekly schedule: study/weekly-schedule.md
+      - Resources: study/resources.md
